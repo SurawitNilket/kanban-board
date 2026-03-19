@@ -10,11 +10,13 @@ A simple homework tracking web application built with HTML, CSS, JavaScript and 
 - Create, rename, and delete columns
 - Create, rename, delete, and reposition (Drag and Drop) tasks
 - Assign tasks to members with notification
+- Data is stored in your LocalStorage
 
 ## Tools
 
 - Figma: Help designing GUIs and pages
-- VSCode AI Agents: Guiding and debugging
+- VSCode: Main coding software
+- VSCode's AI Agents: Guiding and debugging
 
 ## Issues that may expected here
 
