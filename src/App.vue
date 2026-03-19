@@ -19,5 +19,6 @@ const showTopBar = computed(() => !['login', 'register'].includes(route.name))
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 </style>

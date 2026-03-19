@@ -76,7 +76,7 @@ const clearAllNotifications = () => {
 
 .brand {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 
 .topbar-right {

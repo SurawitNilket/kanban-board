@@ -155,7 +155,7 @@ const getUserName = (userId) => {
 <style scoped>
 .board-page {
   padding: 1.5rem;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }

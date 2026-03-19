@@ -15,18 +15,27 @@ a,
   padding: 3px;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+@media (min-width: 1024px) {
+  #app {
+    padding: 0; /* Remove the extra padding that appears on desktop */
   }
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: block;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: block; /* Overrides the media query display if necessary */
+}
 
-  #app {
-    padding: 0 2rem;
-  }
+#app {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: none; /* Removes the 1280px limit */
+  display: flex;
+  flex-direction: column;
+}
 }

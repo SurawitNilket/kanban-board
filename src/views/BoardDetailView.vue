@@ -450,8 +450,8 @@ const deleteColumn = (col) => {
 <style scoped>
 .detail-page {
   padding: 1.25rem;
-  max-width: 1080px;
-  width: min(100%, 1080px);
+  max-width: 1200px;
+  width: min(100%, 1200px);
   margin: 0 auto;
 }
 
